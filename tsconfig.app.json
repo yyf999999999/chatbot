@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
 
@@ -16,8 +16,8 @@
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": false,  /* 変更 */
-    "noUnusedParameters": false,  /* 変更 */
+    "noUnusedLocals": false /* 変更 */,
+    "noUnusedParameters": false /* 変更 */,
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"]

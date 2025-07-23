@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path"; // ◀◀ 追加
 
-const repositoryName = "react-todo-app"; // ◀◀ 追加
+const repositoryName = "chatbot"; // ◀◀ 追加
 
 export default defineConfig({
   plugins: [react()],
